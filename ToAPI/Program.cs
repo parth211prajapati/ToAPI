@@ -1,6 +1,7 @@
 using AutoMapper;
 using LearnAPI.Service;
 using Microsoft.EntityFrameworkCore;
+using Serilog;
 using ToAPI.Container;
 using ToAPI.Helper;
 using ToAPI.Repos;
@@ -23,6 +24,17 @@ builder.Services.AddDbContext<LearndataContextb>(option =>
 var automapper = new MapperConfiguration(item => item.AddProfile(new AutoMapperHandler()));
 IMapper mapper = automapper.CreateMapper();
 builder.Services.AddSingleton(mapper);
+
+string logpath = builder.Configuration.GetSection("Logging:Logpath").Value;
+
+var _logger = new LoggerConfiguration()
+    .MinimumLevel.Information()
+    .MinimumLevel.Override("microsoft", Serilog.Events.LogEventLevel.Warning)
+    .Enrich.FromLogContext()
+    .WriteTo.File(logpath)
+    .CreateLogger();
+builder.Logging.AddSerilog(_logger);
+
 
 var app = builder.Build();
 

@@ -75,3 +75,12 @@ C:\Users\parth\Downloads\ToAPI\ToAPI\obj\Debug\net7.0\ToAPI.pdb
 C:\Users\parth\Downloads\ToAPI\ToAPI\obj\Debug\net7.0\ToAPI.genruntimeconfig.cache
 C:\Users\parth\Downloads\ToAPI\ToAPI\obj\Debug\net7.0\ref\ToAPI.dll
 C:\Users\parth\Downloads\ToAPI\ToAPI\bin\Debug\net7.0\AutoMapper.dll
+C:\Users\parth\Downloads\ToAPI\ToAPI\bin\Debug\net7.0\Serilog.dll
+C:\Users\parth\Downloads\ToAPI\ToAPI\bin\Debug\net7.0\Serilog.AspNetCore.dll
+C:\Users\parth\Downloads\ToAPI\ToAPI\bin\Debug\net7.0\Serilog.Extensions.Hosting.dll
+C:\Users\parth\Downloads\ToAPI\ToAPI\bin\Debug\net7.0\Serilog.Extensions.Logging.dll
+C:\Users\parth\Downloads\ToAPI\ToAPI\bin\Debug\net7.0\Serilog.Formatting.Compact.dll
+C:\Users\parth\Downloads\ToAPI\ToAPI\bin\Debug\net7.0\Serilog.Settings.Configuration.dll
+C:\Users\parth\Downloads\ToAPI\ToAPI\bin\Debug\net7.0\Serilog.Sinks.Console.dll
+C:\Users\parth\Downloads\ToAPI\ToAPI\bin\Debug\net7.0\Serilog.Sinks.Debug.dll
+C:\Users\parth\Downloads\ToAPI\ToAPI\bin\Debug\net7.0\Serilog.Sinks.File.dll
